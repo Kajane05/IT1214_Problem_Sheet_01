@@ -81,7 +81,6 @@ class Main{
 		cr.addStudent(new Student(101,"Alice Smith",12));
 		cr.addStudent(new Student(102,"Bob Jones",15));
 		cr.addStudent(new Student(103,"Carol Lee",10));
-		
 		cr.updateAttendence(102,16);
 		cr.updateAttendence(104,5);
 		
