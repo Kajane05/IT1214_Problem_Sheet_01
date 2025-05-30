@@ -47,7 +47,20 @@ class Student{
 			}
 		}
 		
-		
+		void updateAttendence(int studentId,int newDays){
+			boolean found=false;
+			for(int i=0; i<count; i++){
+				if(students[i].getStudentId()==studentId){
+					students[i].setDaysAttended(newDays);
+					found=true;
+					break;
+				}
+			}
+			if(!found){
+					System.out.println("Student ID "+studentId+" not found");
+			}
+			
+			}
 			
 		
 		
